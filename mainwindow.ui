@@ -26,6 +26,9 @@
     <layout class="QGridLayout" name="gridLayout">
      <item row="0" column="0">
       <widget class="QLabel" name="lblName1">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(170, 0, 0); </string>
+       </property>
        <property name="text">
         <string>Player 1 :</string>
        </property>
@@ -33,6 +36,9 @@
      </item>
      <item row="1" column="0">
       <widget class="QLabel" name="lblName2">
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 85, 255)</string>
+       </property>
        <property name="text">
         <string>Player 2:</string>
        </property>
@@ -57,13 +63,25 @@
     </property>
     <layout class="QGridLayout" name="gridLayout_2">
      <item row="2" column="1">
-      <widget class="QLineEdit" name="lineEditWin2"/>
+      <widget class="QLineEdit" name="lineEditWin2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
      </item>
      <item row="2" column="2">
-      <widget class="QLineEdit" name="lineEditLose2"/>
+      <widget class="QLineEdit" name="lineEditLose2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QLineEdit" name="lineEditWin1"/>
+      <widget class="QLineEdit" name="lineEditWin1">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
      </item>
      <item row="2" column="0">
       <widget class="QLabel" name="lblScore2">
@@ -73,7 +91,11 @@
       </widget>
      </item>
      <item row="1" column="3">
-      <widget class="QLineEdit" name="lineEditDraw1"/>
+      <widget class="QLineEdit" name="lineEditDraw1">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
      </item>
      <item row="1" column="0">
       <widget class="QLabel" name="lblScore1">
@@ -83,10 +105,18 @@
       </widget>
      </item>
      <item row="2" column="3">
-      <widget class="QLineEdit" name="lineEditDraw2"/>
+      <widget class="QLineEdit" name="lineEditDraw2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
      </item>
      <item row="1" column="2">
-      <widget class="QLineEdit" name="lineEditLose1"/>
+      <widget class="QLineEdit" name="lineEditLose1">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
+      </widget>
      </item>
      <item row="0" column="1">
       <widget class="QLabel" name="label_5">
@@ -141,6 +171,9 @@
      </property>
      <item row="4" column="2">
       <widget class="QPushButton" name="btn23">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -154,6 +187,9 @@
      </item>
      <item row="2" column="3">
       <widget class="QPushButton" name="btn14">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -167,6 +203,9 @@
      </item>
      <item row="3" column="1">
       <widget class="QPushButton" name="btn17">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -180,6 +219,9 @@
      </item>
      <item row="3" column="2">
       <widget class="QPushButton" name="btn18">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -193,6 +235,9 @@
      </item>
      <item row="2" column="2">
       <widget class="QPushButton" name="btn13">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -206,6 +251,9 @@
      </item>
      <item row="1" column="4">
       <widget class="QPushButton" name="btn10">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -219,6 +267,9 @@
      </item>
      <item row="3" column="3">
       <widget class="QPushButton" name="btn19">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -232,6 +283,9 @@
      </item>
      <item row="4" column="4">
       <widget class="QPushButton" name="btn25">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -244,7 +298,10 @@
       </widget>
      </item>
      <item row="0" column="0">
-      <widget class="QPushButton" name="btn01">
+      <widget class="QPushButton" name="btn1">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -257,7 +314,10 @@
       </widget>
      </item>
      <item row="0" column="1">
-      <widget class="QPushButton" name="btn02">
+      <widget class="QPushButton" name="btn2">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -270,7 +330,10 @@
       </widget>
      </item>
      <item row="0" column="2">
-      <widget class="QPushButton" name="btn03">
+      <widget class="QPushButton" name="btn3">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -284,6 +347,9 @@
      </item>
      <item row="3" column="0">
       <widget class="QPushButton" name="btn16">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -297,6 +363,9 @@
      </item>
      <item row="2" column="0">
       <widget class="QPushButton" name="btn11">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -311,7 +380,7 @@
      <item row="2" column="4">
       <widget class="QPushButton" name="btn15">
        <property name="enabled">
-        <bool>true</bool>
+        <bool>false</bool>
        </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
@@ -326,6 +395,9 @@
      </item>
      <item row="4" column="3">
       <widget class="QPushButton" name="btn24">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -339,6 +411,9 @@
      </item>
      <item row="2" column="1">
       <widget class="QPushButton" name="btn12">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -352,6 +427,9 @@
      </item>
      <item row="4" column="1">
       <widget class="QPushButton" name="btn22">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -364,7 +442,10 @@
       </widget>
      </item>
      <item row="0" column="3">
-      <widget class="QPushButton" name="btn04">
+      <widget class="QPushButton" name="btn4">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -378,6 +459,9 @@
      </item>
      <item row="4" column="0">
       <widget class="QPushButton" name="btn21">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -391,6 +475,9 @@
      </item>
      <item row="3" column="4">
       <widget class="QPushButton" name="btn20">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -403,7 +490,10 @@
       </widget>
      </item>
      <item row="0" column="4">
-      <widget class="QPushButton" name="btn05">
+      <widget class="QPushButton" name="btn5">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -416,7 +506,10 @@
       </widget>
      </item>
      <item row="1" column="3">
-      <widget class="QPushButton" name="btn09">
+      <widget class="QPushButton" name="btn9">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -429,7 +522,10 @@
       </widget>
      </item>
      <item row="1" column="2">
-      <widget class="QPushButton" name="btn08">
+      <widget class="QPushButton" name="btn8">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -442,7 +538,10 @@
       </widget>
      </item>
      <item row="1" column="1">
-      <widget class="QPushButton" name="btn07">
+      <widget class="QPushButton" name="btn7">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -455,7 +554,10 @@
       </widget>
      </item>
      <item row="1" column="0">
-      <widget class="QPushButton" name="btn06">
+      <widget class="QPushButton" name="btn6">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="sizePolicy">
         <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
          <horstretch>0</horstretch>
@@ -493,7 +595,7 @@
      <rect>
       <x>590</x>
       <y>260</y>
-      <width>55</width>
+      <width>181</width>
       <height>16</height>
      </rect>
     </property>
